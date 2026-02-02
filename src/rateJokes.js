@@ -21,7 +21,7 @@ async function rateJoke(joke, token) {
     model: "openai/gpt-4.1-mini",
   });
 
-  // Return the plain text response
+  // Return plain text response
   return response.choices[0].message.content;
 }
 
